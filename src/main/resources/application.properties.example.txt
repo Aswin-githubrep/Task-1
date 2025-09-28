@@ -1,0 +1,5 @@
+spring.application.name=task1
+
+# Fill with your own values before running locally
+spring.data.mongodb.uri=mongodb+srv://<username>:<password>@<cluster-host>/taskdb?retryWrites=true&w=majority&appName=Cluster0
+spring.data.mongodb.database=taskdb

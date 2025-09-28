@@ -1,0 +1,16 @@
+# Maven build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SECRETS - do not commit real config
+src/main/resources/application.properties
